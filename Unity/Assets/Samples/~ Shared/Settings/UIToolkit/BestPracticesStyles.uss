@@ -1,0 +1,19 @@
+.unity-text-element {
+    font-size: 70px;
+    -unity-font: resource('Fonts & Materials/Righteous/Righteous-Regular');
+    -unity-font-definition: resource('Fonts & Materials/Righteous/Righteous-Regular');
+    -unity-font-style: normal;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 0 rgb(0, 0, 0);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+}
+
+.screen {
+    flex-grow: 1;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}

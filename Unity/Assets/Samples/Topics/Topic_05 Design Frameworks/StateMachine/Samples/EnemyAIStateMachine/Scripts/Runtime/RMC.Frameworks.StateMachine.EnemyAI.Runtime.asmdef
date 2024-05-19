@@ -1,0 +1,17 @@
+{
+    "name": "RMC.Frameworks.StateMachine.EnemyAI.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:08ca0458f63df5f46ac773fccb5bc393",
+        "GUID:5e742c61aa2a6094d84dcf8c973226a3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

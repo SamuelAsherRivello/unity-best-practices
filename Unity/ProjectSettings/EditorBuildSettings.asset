@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_06 Unity Features/Unity Features_03 Testing/Demo_01
+      Calculator/Calculator_01Start/Calculator_01Start.unity
+    guid: 47ea6fa3a5ac3db4cbfcaf999b1b535c
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_06 Unity Features/Unity Features_03 Testing/Demo_01
+      Calculator/Calculator_02Complete/Calculator_02Complete.unity
+    guid: 3d3adbcd27b8cb946b67047c7815a142
+  - enabled: 1
+    path: Assets/Samples/Topics/~ More/Coding Challenges/Demo01 ArraySum/Challenge_ArraySum.unity
+    guid: b29eec743461bb44ab5d85320fbb0908
+  - enabled: 1
+    path: Assets/Samples/Topics/~ More/Coding Challenges/Demo02 Fibonacci/Challenge_Fibonacci.unity
+    guid: 225bdc7544da36d448da0cfa2a4f05a6
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_04 Design Patterns/Behavioral/Command/CommandPattern.unity
+    guid: 5fdda88d9db6fbd4abda8bbfcf486287
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_05 Design Frameworks/BehaviorTree/Samples/Demo01_Simple/CountUpBehaviorTree/Scenes/CountUpBehaviorTree.unity
+    guid: 9f77f04fdf3d1ee47bf5a77ba7f90e70
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_05 Design Frameworks/BehaviorTree/Samples/Demo01_Simple/CountUpWithBlackboardBehaviorTree/Scenes/CountUpWithBlackboardBehaviorTree.unity
+    guid: adc41cbf16a09c34db3efbf66a6d1f9b
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_04 Design Patterns/Structural/Decorator/DecoratorPattern.unity
+    guid: 986a3a15b4155b5439900835309c99e8
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_06 Unity Features/Unity Features_02 Editor/Unity_02_UnityUI
+      (Old)/Demo_07 Custom Window/Demo_07_CustomWindow.unity
+    guid: 7d77e69cb37833c45b84235c33c66005
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_06 Unity Features/Unity Features_01 Runtime/RuntimeFeature_02_AsyncAwait/Demo_AsyncAwait.unity
+    guid: 2602258f13e4c404f918b67bba2ca64c
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_06 Unity Features/Unity Features_02 Editor/Unity_02_UnityUI
+      (Old)/Demo_02 Custom Inspector/Demo_CustomInspector.unity
+    guid: 75b36a9ee3f46f74d99787b8b2b3d496
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_06 Unity Features/Unity Features_02 Editor/Unity_02_UnityUI
+      (Old)/Demo_03 Custom Inspector/Demo_CustomInspector.unity
+    guid: 93c31f1589898be488a1ff7a6d105650
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_06 Unity Features/Unity Features_02 Editor/Demo_01
+      Default Inspector/Demo_DefaultInspector.unity
+    guid: fd591eae959ce454aaceba4aad7f721e
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_06 Unity Features/Unity Features_01 Runtime/RuntimeFeature_01_ExtensionMethods/Demo_ExtensionMethods.unity
+    guid: 35ab766dd39b4a04ebb88c7717454801
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_06 Unity Features/Unity Features_02 Editor/Unity_02_UnityUI
+      (Old)/Demo_05 Inspector Attributes/Demo_InspectorAttributes.unity
+    guid: a1d1d4b9250d53640a4a48957635a027
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_06 Unity Features/Unity Features_02 Editor/Unity_02_UnityUI
+      (Old)/Demo_04 Menu Item/Demo_MenuItem.unity
+    guid: 1c70f3a9ef4ee8d4abbc99f6eca1479c
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_06 Unity Features/Unity Features_02 Editor/Unity_02_UnityUI
+      (Old)/Demo_06 Property Drawer/Without Property Drawer/Demo_WithoutPropertyDrawer.unity
+    guid: edafb0d3a84b254408e5f538ccd887c5
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_06 Unity Features/Unity Features_02 Editor/Unity_02_UnityUI
+      (Old)/Demo_06 Property Drawer/With Property Drawer/Demo_WithPropertyDrawer.unity
+    guid: 06eba30f99eb55e48a93ec84e95e72a0
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_05 Design Frameworks/StateMachine/Samples/EnemyAIStateMachine/Scenes/EnemyAIStateMachine.unity
+    guid: d00e9573a58a661419c5ccb522b8c8f4
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_04 Design Patterns/Structural/Facade/FacadePattern.unity
+    guid: 41fb4218f39c01148a272cd5c5b541d9
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_04 Design Patterns/Creational/Factory Method/FactoryMethodPattern.unity
+    guid: 882b47ccd9143084183b8064d58cd0ed
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_04 Design Patterns/Structural/Builder/FluentBuilder/FluentBuilderPattern.unity
+    guid: 68c2fc198f4f66d4c84151c844459c70
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_04 Design Patterns/Structural/Flyweight/FlyweightPattern.unity
+    guid: c106a97266f25124b9f887890eda2d56
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_04 Design Patterns/Behavioral/Memento/MementoPattern.unity
+    guid: ab8a5b93f0151e041b4820b2f29313ee
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_04 Design Patterns/Structural/Builder/OrderedBuilder/OrderedBuilderPattern.unity
+    guid: 83b387ce5f25e00439b1e7a6ab277898
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_05 Design Frameworks/BehaviorTree/Samples/Demo02_Composites/ParallelBehaviorTree/Scenes/ParallelBehaviorTree.unity
+    guid: 444b9a0eb0bb7624a9619271e41aee51
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_05 Design Frameworks/BehaviorTree/Samples/Demo03_Complex/PlayerBehaviorTree/Scenes/PlayerBehaviorTree.unity
+    guid: d18db98eeab53d14e8c403d4e2446613
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_05 Design Frameworks/BehaviorTree/Samples/Demo01_Simple/RepeaterBehaviorTree/Scenes/RepeaterBehaviorTree.unity
+    guid: 1cf59bc5d8e8eff45bb264993a748d79
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_05 Design Frameworks/BehaviorTree/Samples/Demo02_Composites/SelectorBehaviorTree/Scenes/SelectorBehaviorTree.unity
+    guid: 50abf02bd181ace4c90987453ad225fc
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_05 Design Frameworks/BehaviorTree/Samples/Demo02_Composites/SequenceBehaviorTree/Scenes/SequenceBehaviorTree.unity
+    guid: a5ec1f6bae68a8944ba2900bd5bff857
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_04 Design Patterns/Creational/Singleton/SingletonMonoBehaviour/SingletonPattern_MonoBehavior.unity
+    guid: 028b27b1ea64e954e8cf3f7bc49c7df2
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_04 Design Patterns/Creational/Singleton/ScriptableSingleton/SingletonPattern_Scriptable.unity
+    guid: 4cd67eb2292afa04385e8b0aa9242d66
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_04 Design Patterns/Creational/Singleton/SuperSingletonMonoBehaviour/SingletonPattern_SuperSingleton.unity
+    guid: 50ff5da18c124f17b7b92075c89b50bd
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_03 Design Principles/SOLID Principles/Demo_05
+      Dependency Inversion/SolidDemo_DependencyInversion.unity
+    guid: 685d174269303a64282f3fe33574b92b
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_03 Design Principles/SOLID Principles/Demo_04
+      Interface Segregation/SolidDemo_InterfaceSegregation.unity
+    guid: 7b605302a86c0fa448ec3874cb6fc217
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_03 Design Principles/SOLID Principles/Demo_03
+      Liskov Substitution/SolidDemo_LiskovSubstitution.unity
+    guid: 546410395b502e5428278f2eeafda9d3
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_03 Design Principles/SOLID Principles/Demo_02
+      Open Close/SolidDemo_OpenClose.unity
+    guid: 0c9eb32f82d5f584f8b0b0ff7c94ffa9
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_03 Design Principles/SOLID Principles/Demo_01
+      Single Responsibility/SolidDemo_SingleResponsibility.unity
+    guid: 423c5d7cfbc944e45919d9a46165deab
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_03 Design Principles/SOLID Principles/Demo_00
+      WithoutPrinciples/SolidDemo_WithoutPrinciples.unity
+    guid: 054e0d2ff49642d4ebc793e71545018f
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_04 Design Patterns/Structural/Builder/StandardBuilder/StandardBuilderPattern.unity
+    guid: 0daf61f13f086244a93da4e2cb10cf77
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_04 Design Patterns/Behavioral/State/StatePattern.unity
+    guid: fde0af35ccf00c0429617e458c3715ef
+  - enabled: 1
+    path: Assets/Samples/Topics/Topic_04 Design Patterns/Behavioral/Strategy/StrategyPattern.unity
+    guid: df7aafc3b6cd74144ad33d187769db3c
+  m_configObjects: {}

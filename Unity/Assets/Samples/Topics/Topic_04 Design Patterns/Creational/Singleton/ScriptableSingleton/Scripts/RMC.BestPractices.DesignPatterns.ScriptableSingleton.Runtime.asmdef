@@ -1,0 +1,17 @@
+{
+    "name": "RMC.BestPractices.DesignPatterns.ScriptableSingleton.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0224583c42796c9418bcceb45d6235f7",
+        "GUID:5e742c61aa2a6094d84dcf8c973226a3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,14 @@
+{
+    "name": "RMC.BestPractices.SOLID.DependencyInversionPrinciple.Runtime",
+    "rootNamespace": "",
+    "references": ["GUID:5e742c61aa2a6094d84dcf8c973226a3"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

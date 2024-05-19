@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UnityBestPractices/Shared/Settings/UIToolkit/BestPracticesStyles.uss?fileID=7433441132597879392&amp;guid=72cb7ff65a7e86e4fa428aa2ed78f0a8&amp;type=3#BestPracticesStyles" />
+    <ui:VisualElement name="Screen" picking-mode="Ignore" class="screen">
+        <ui:VisualElement name="UpperLeft" picking-mode="Ignore" style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TitleLabel" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:VisualElement name="UpperRight" picking-mode="Ignore" style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="Instructions\nInstructions" parse-escape-sequences="true" display-tooltip-when-elided="true" name="InstructionsLabel" picking-mode="Ignore" style="-unity-text-align: upper-right;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
