@@ -5,9 +5,9 @@ namespace RMC.BestPractices.Shared
 	/// </summary>
 	public static class BestPracticesConstants 
 	{
-		public const string MenuItemPath = "Window/RMC/BestPractices/";
+		public const string MenuItemPath = "Window/RMC/Best Practices/";
 		//
 		public const string CreateAssetMenuPath = "RMC/BestPractices/";
-		public const int CreateAssetMenuOrder = -100;
+		public const int CreateAssetMenuPriority = -1000;
 	}
 }

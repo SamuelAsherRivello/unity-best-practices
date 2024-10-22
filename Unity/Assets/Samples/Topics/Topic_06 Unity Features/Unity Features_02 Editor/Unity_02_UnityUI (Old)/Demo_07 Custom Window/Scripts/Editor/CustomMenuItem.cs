@@ -14,7 +14,7 @@ namespace RMC.BestPractices.Features.EditorScripting.Demo_09_CustomWindow
 	{
 		// SHOW MENU ITEM
 		[MenuItem(BestPracticesConstants.MenuItemPath + 
-			"Features/EditorScripting/Demo_09_CustomWindow/Open Custom Window", priority = 0)]
+			"Demo_CustomWindow/Open Custom Window", priority = BestPracticesConstants.CreateAssetMenuPriority)]
 		private static void OpenCustomWindow()
 		{
 			MyCustomEditorWindow.ShowWindow();

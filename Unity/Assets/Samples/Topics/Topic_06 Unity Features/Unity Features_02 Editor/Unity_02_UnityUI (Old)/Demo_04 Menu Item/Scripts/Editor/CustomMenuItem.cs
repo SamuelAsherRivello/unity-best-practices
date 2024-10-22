@@ -15,7 +15,7 @@ namespace RMC.BestPractices.Features.EditorScripting.Demo_04_MenuItem
 	{
 		// SHOW MENU ITEM
 		[MenuItem(BestPracticesConstants.MenuItemPath + 
-			"Features/Demo_MenuItem/(+) Add Cube To Scene", priority = 0)]
+			"Demo_MenuItem/(+) Add Cube To Scene", priority = BestPracticesConstants.CreateAssetMenuPriority)]
 		private static void AddCubeToScene()
 		{
 			GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
@@ -25,10 +25,10 @@ namespace RMC.BestPractices.Features.EditorScripting.Demo_04_MenuItem
 
 		// SHOW MENU ITEM
 		[MenuItem(BestPracticesConstants.MenuItemPath + 
-			"Features/Demo_MenuItem/(-) Remove Cube From Scene", priority = 0)]
+			"Demo_MenuItem/(-) Remove Cube From Scene", priority = BestPracticesConstants.CreateAssetMenuPriority)]
 		private static void RemoveCubeFromScene()
 		{
-			MyCustomCube[] myCustomCubes = GameObject.FindObjectsOfType<MyCustomCube>();
+			MyCustomCube[] myCustomCubes = GameObject.FindObjectsByType<MyCustomCube>(FindObjectsSortMode.InstanceID);
 
 			if (myCustomCubes.Length == 0)
 			{
@@ -49,10 +49,10 @@ namespace RMC.BestPractices.Features.EditorScripting.Demo_04_MenuItem
 		
 		// TOGGLE MENU ITEM ENABLED
 		[MenuItem(BestPracticesConstants.MenuItemPath + 
-			"Features/EditorScripting/Demo_04_MenuItem/(-) Remove Cube From Scene", true, priority = 0)]
+			"Demo_MenuItem/(-) Remove Cube From Scene", true, priority = BestPracticesConstants.CreateAssetMenuPriority)]
 		private static bool RemoveCubeFromScene_Toggle()
 		{
-			MyCustomCube[] myCustomCubes = GameObject.FindObjectsOfType<MyCustomCube>();
+			MyCustomCube[] myCustomCubes = GameObject.FindObjectsByType<MyCustomCube>(FindObjectsSortMode.InstanceID);
 
 			// Return TRUE to enable
 			return myCustomCubes.Length > 0;

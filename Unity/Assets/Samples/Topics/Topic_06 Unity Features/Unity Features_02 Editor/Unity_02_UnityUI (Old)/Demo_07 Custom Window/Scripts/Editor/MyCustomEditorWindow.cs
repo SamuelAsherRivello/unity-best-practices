@@ -13,7 +13,7 @@ namespace RMC.BestPractices.Features.EditorScripting.Demo_09_CustomWindow
     
 		// Add menu item named "My Window" to the Window menu
 		[MenuItem(BestPracticesConstants.MenuItemPath +
-			"Features/EditorScripting/Demo_09_CustomWindow/My Window", priority = 0)]
+			"Demo_CustomWindow/My Window", priority = BestPracticesConstants.CreateAssetMenuPriority)]
 		public static void ShowWindow()
 		{
 			//Show existing window instance. If one doesn't exist, make one.

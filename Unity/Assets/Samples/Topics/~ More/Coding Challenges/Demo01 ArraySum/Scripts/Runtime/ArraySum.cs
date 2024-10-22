@@ -36,7 +36,7 @@ namespace RMC.BestPractices.CodingChallenges.ArraySum
 		}
 
 		//The time complexity of FindIndexesForTargetSum is O(n^2)
-        List<int> FindIndexesForTargetSum(List<int> numbers, int targetSum)
+		private List<int> FindIndexesForTargetSum(List<int> numbers, int targetSum)
         {
 	        List<int> result = new List<int>();
 

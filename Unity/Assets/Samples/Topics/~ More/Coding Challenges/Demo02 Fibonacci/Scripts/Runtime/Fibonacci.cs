@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using RMC.BestPractices.Shared;
 using UnityEngine;
 
@@ -31,12 +30,12 @@ namespace RMC.BestPractices.CodingChallenges.Fibonacci
 			var from2 = 0;
 			var n2 = 11;
 			var result2 = CalculateFibonacciSequence(from2, n2);
-			Debug.Log($"The Fibonacci sequence from index 0 to index {n2} is {string.Join(",", result2)}. ");
+			Debug.Log($"The Fibonacci sequence from index 0 through index {n2} is {string.Join(",", result2)}. ");
 
 		}
 		
 		// Exponential Time Complexity: O(2^N)
-		protected List<int> CalculateFibonacciSequence(int from, int n)
+		private List<int> CalculateFibonacciSequence(int from, int n)
 		{
 			List<int> result = new List<int>();
 			for (int i = from; i <= n; i++)
@@ -47,7 +46,7 @@ namespace RMC.BestPractices.CodingChallenges.Fibonacci
 		}
 		
 		// Exponential Time Complexity: ?
-		protected int CalculateFibonacciInt(int n)
+		private int CalculateFibonacciInt(int n)
 		{
 			// Part 1 - The base case, that ends recursion
 			if (n == 0)

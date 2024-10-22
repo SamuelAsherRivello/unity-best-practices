@@ -27,22 +27,22 @@ namespace RMC.BestPractices.CodingChallenges.SinglyLinkedList
 			// Must call base
 			base.Start();
             
-            // Sample linked list
+            // Create Sample Linked List, values 1,2,3,4,5
             ListNode head = new ListNode(1);
             head.next = new ListNode(2);
             head.next.next = new ListNode(3);
             head.next.next.next = new ListNode(4);
             head.next.next.next.next = new ListNode(5);
 			
-            //
+            // Log out values of each node. Direction: FORWARD
             Debug.Log("LinkedListForward() 1 Original --------------");
 			LinkedListForward(head);
 			
-            //
+			// Log out values of each node. Direction: REVERSE
             Debug.Log("LinkedListBackward() 1 Original ---------------");
             LinkedListBackward(head);
             
-            //
+            // Create new linked list in the REVERSE order
             Debug.Log("LinkedListForward() 2 Reversed --------------");
             head = CreateReverseLinkedList(head);
             LinkedListForward(head);
@@ -78,7 +78,7 @@ namespace RMC.BestPractices.CodingChallenges.SinglyLinkedList
 			}
 		}
 		
-		public ListNode CreateReverseLinkedList(ListNode head)
+		private ListNode CreateReverseLinkedList(ListNode head)
 		{
 			ListNode previous = null;
 			ListNode current = head;

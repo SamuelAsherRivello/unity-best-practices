@@ -1,5 +1,4 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using RMC.BestPractices.Shared;
 using UnityEngine;
 
@@ -30,12 +29,12 @@ namespace RMC.BestPractices.CodingChallenges.Challenge_BST_BFS
 			// Must call base
 			base.Start();
             
-			// Sample Binary Search Tree
-			//		  1
-			//		 / \
-			//		2   3
-			//	   / \   \
-			//	  4   5   6
+            // Sample Binary Search Tree
+            //		        1
+            //		    /      \
+            //		  2          3 
+            //	    /   \      /    \
+            //	  4      5   (null)    6
 			TreeNode head = new TreeNode(1);
 			head.left = new TreeNode(2);
 			head.right = new TreeNode(3);

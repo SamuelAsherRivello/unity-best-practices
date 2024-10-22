@@ -29,11 +29,11 @@ namespace RMC.BestPractices.CodingChallenges.Challenge_BST_DFS
             base.Start();
             
             // Sample Binary Search Tree
-            //		  1
-            //		 / \
-            //		2   3
-            //	   / \   \
-            //	  4   5   (null)
+            //		        1
+            //		    /      \
+            //		  2          3 
+            //	    /   \      /    \
+            //	  4      5   (null) (null)
             TreeNode head = new TreeNode(1);
             head.left = new TreeNode(2);
             head.right = new TreeNode(3);

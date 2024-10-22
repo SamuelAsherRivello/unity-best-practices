@@ -50,7 +50,7 @@ namespace RMC.BestPractices.Shared
 			{
 				return;
 			}
-			_common.UI.TitleLabel.text = $"{this.GetType().Name}";
+			_common.UI.TitleLabel.text = $"{this.GetType().Name}\nUse Spacebar To Restart";
 			_common.UI.InstructionsLabel.text = $"{_demoData.Title}\n{_demoData.Instructions}";
 		}
 	}

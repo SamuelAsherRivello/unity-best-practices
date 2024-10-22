@@ -1,5 +1,5 @@
 .unity-text-element {
-    font-size: 70px;
+    font-size: 50px;
     -unity-font: resource('Fonts & Materials/Righteous/Righteous-Regular');
     -unity-font-definition: resource('Fonts & Materials/Righteous/Righteous-Regular');
     -unity-font-style: normal;

@@ -41,7 +41,7 @@ namespace RMC.BestPractices.DesignPatterns.CreationalPatterns.SingletonPattern.S
 		{
 			if (!IsInstantiated)
 			{
-				_Instance = GameObject.FindObjectOfType<T>();
+				_Instance = GameObject.FindFirstObjectByType<T>();
 
 				if (_Instance == null)
 				{

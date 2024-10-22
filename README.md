@@ -1,6 +1,9 @@
 # Unity Best Practices
+Design principles, design patterns, coding challenges, and more!
 
 <img src="./Unity/Assets/Samples/~ Shared/Documentation/Images/BestPractices.png" width="600" />
+
+<BR>
 
 **Details**
 
@@ -10,12 +13,18 @@ The repo is complete with code samples.
 
 Enjoy!
 
+<BR>
+<BR>
+
 **Related Repos**
 
 | Name                   | Description                                                                         | Educational Use | Production Use | Link                                                                  |
 | ---------------------- | ----------------------------------------------------------------------------------- | --------------- | -------------- | --------------------------------------------------------------------- |
 | Unity Best Practices   | Repo with best practices for Unity. It covers project structure and code standards. | ✅              | ❌             | (See below)                                                           |
 | Unity Project Template | Template showcasing best practices and coding standards for Unity projects.         | ❌              | ✅             | [link](https://github.com/SamuelAsherRivello/unity-project-template/) |
+
+<BR>
+<BR>
 
 ## Table of Contents
 
@@ -24,13 +33,16 @@ Enjoy!
 1. [Design Patterns](#design-patterns)
 1. [Features](#features)
 1. [Tooling](#tooling)
-1. [Contact](#contact)
+1. [Credits](#credits)
+
+<BR>
+<BR>
 
 ## Getting Started
 
 ### Instructions
 
-1. Download this repo (_.zip or _.git)
+1. Download this repo (*.zip or *.git)
 1. Download the [Unity Editor](https://store.unity.com/#plans-individual) (See `Unity Version` below)
 1. Open the Unity Hub
 1. Unity Hub: Click the 'Add' button
@@ -39,6 +51,9 @@ Enjoy!
 1. Unity Editor: Open one of the included Scenes
 1. Unity Editor: Play the Scene
 1. Enjoy!
+
+<BR>
+<BR>
 
 ## Configuration
 
@@ -61,6 +76,9 @@ Enjoy!
 
 - `Various` - Already included via [Unity Package Manager](https://docs.unity3d.com/Manual/upm-ui.html) as this [Version](./Unity/Packages/manifest.json)
 
+<BR>
+<BR>
+
 ## Design Principles
 
 **Theory**
@@ -76,6 +94,9 @@ Enjoy!
 | **L**iskov Substitution   | Subtypes must be substitutable for their base types.                                        | ✅                   |
 | **I**nterface Segregation | No client should be forced to depend on interfaces they do not use.                         | ✅                   |
 | **D**ependency Inversion  | High-level modules should not depend on low-level ones; both should depend on abstractions. | ✅                   |
+
+<BR>
+<BR>
 
 ## Design Patterns
 
@@ -132,6 +153,9 @@ These patterns provide solutions to common design problems and are a foundationa
 |            | Flyweight               | Reuses objects by sharing common state.                       | ✅                   |
 |            | Proxy                   | Represents another object.                                    | ❌                   |
 
+<BR>
+<BR>
+
 ## Features
 
 - **Editor Scripting** - Unity lets you extend the editor with your own custom inspectors and Editor Windows and you can define how properties are displayed in the inspector with custom Property Drawers. See <a href="https://docs.unity3d.com/Manual/ExtendingTheEditor.html">Unity Docs</a> for more.
@@ -140,19 +164,24 @@ These patterns provide solutions to common design problems and are a foundationa
 
 - **Unit Testing** - Software testing where individual units/ components of a software are tested. The purpose is to validate that each unit of the software performs as designed. A unit is the smallest testable part of any software. See <a href="https://docs.unity3d.com/Manual/testing-editortestsrunner.html">Unity Docs</a> for more.
 
-# Created By
+<BR>
+<BR>
+
+## Credits
+
+**Created By**
 
 - Samuel Asher Rivello
 - Over 25 years XP with game development (2024)
 - Over 11 years XP with Unity (2024)
 
-# Contact
+**Contact**
 
 - Twitter - <a href="https://twitter.com/srivello/">@srivello</a>
 - Git - <a href="https://github.com/SamuelAsherRivello/">Github.com/SamuelAsherRivello</a>
 - Resume & Portfolio - <a href="http://www.SamuelAsherRivello.com">SamuelAsherRivello.com</a>
 - LinkedIn - <a href="https://Linkedin.com/in/SamuelAsherRivello">Linkedin.com/in/SamuelAsherRivello</a> <--- Say Hello! :)
 
-# License
+**License**
 
-Provided as-is under MIT License | Copyright © 2024 Rivello Multimedia Consulting, LLC
+Provided as-is under <a href="./LICENSE">MIT License</a> | Copyright ™ & © 2006 - 2024 Rivello Multimedia Consulting, LLC
